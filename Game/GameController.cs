@@ -26,7 +26,6 @@ namespace Game
         {
 
  
-            // Проверяем столкновение игрока с препятствиями
             if (player.Bounds.IntersectsWith(stone1.Bounds) ||
                 player.Bounds.IntersectsWith(stone2.Bounds) ||
                 player.Bounds.IntersectsWith(metall.Bounds))
